@@ -1,0 +1,27 @@
+{
+    "remotePath": "/home4/dobariys/public_html/Assignment 2",
+    "host": "dev.fast.sheridanc.on.ca",
+    "username": "dobariys",
+    "password": "Smitdobariya$123",
+    "port": 22,
+    "secure": true,
+    "protocol": "sftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}

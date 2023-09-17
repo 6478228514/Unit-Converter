@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightsalmon;
+        }
+        h1{
+            border: thick solid black;
+           
+            background-color: aqua;
+            
+        }
+        
+        form fieldset{
+            display: grid;
+            grid-template-areas: 
+                                 "btn1 btn2 btn3 btn4"
+                                "btn5 btn6 btn7 btn8";
+                                
+            grid-row-gap: 10px;
+            grid-column-gap: 100px;
+        }
+       
+        #butn1{
+            grid-area: btn1;
+        }
+        #butn2{
+            grid-area:btn2;
+        }
+        #butn3{
+            grid-area:btn3;
+        }
+        #butn4{
+            grid-area:btn4;
+        }
+        #butn5{
+            grid-area:btn5;           
+        }
+        #butn6{
+            grid-area:btn6;
+        }
+        #butn7{
+            grid-area:btn7;
+        }
+        #butn8{
+            grid-area:btn8;
+        }
+        #clear{
+            margin-top: 10px;
+        }  
+        
+        
+    
+    </style>
+</head>
+<body>
+    <hr>
+    <h1 id="h" style="text-align:center;">Assignment2<br>Web Programming<br>Smit Dobariya</h1>
+    <hr>
+    
+        
+        <form>
+        
+        <fieldset>
+        <legend><label>Enter any Number for unit converstion:<input type="text" id="txt" autofocus></label></legend>
+       
+        <input type="button" value="centimeter to inches" id="butn1">
+        <input type="button" value="inches to meter" id="butn2">
+        <input type="button" value="centimeter to meter" id="butn3">
+        <input type="button" value="meter to  feet" id="butn4">
+        <input type="button" value="inches to centimeter" id="butn5">
+        <input type="button" value="meter to inches" id="butn6">
+        <input type="button" value="meter to centimeter" id="butn7">
+        <input type="button" value="feet to meter" id="butn8">
+        
+        </fieldset>
+        
+        
+    </form>
+    <input type="reset" value="Clear" id="clear">
+    <p id="ans" style="font-size: 30px; text-align:center;"></p>
+    <script src="_script/script.js"></script>
+    
+
+    
+</body>
+</html>
